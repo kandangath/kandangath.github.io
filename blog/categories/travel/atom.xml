@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Travel | My Octopress Blog]]></title>
   <link href="http://kandangath.github.io/blog/categories/travel/atom.xml" rel="self"/>
   <link href="http://kandangath.github.io/"/>
-  <updated>2014-08-16T21:16:58-07:00</updated>
+  <updated>2014-08-16T21:19:51-07:00</updated>
   <id>http://kandangath.github.io/</id>
   <author>
     <name><![CDATA[Your Name]]></name>
@@ -19,6 +19,8 @@
     <updated>2014-08-16T21:13:56-07:00</updated>
     <id>http://kandangath.github.io/blog/2014/08/16/hello-world</id>
     <content type="html"><![CDATA[<p>This is a test page to see how this works.</p>
+
+<p><img class="<a" src="href="http://placekitten.com/890/280">http://placekitten.com/890/280</a>"></p>
 ]]></content>
   </entry>
   
