@@ -4,7 +4,7 @@
   <title><![CDATA[Kandangath]]></title>
   <link href="http://kandangath.github.io/atom.xml" rel="self"/>
   <link href="http://kandangath.github.io/"/>
-  <updated>2014-12-07T19:17:08-08:00</updated>
+  <updated>2014-12-07T19:59:10-08:00</updated>
   <id>http://kandangath.github.io/</id>
   <author>
     <name><![CDATA[Anil Kandangath]]></name>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Istanbul]]></title>
-    <link href="http://kandangath.github.io/blog/2014/12/07/istanbul/"/>
-    <updated>2014-12-07T19:13:07-08:00</updated>
-    <id>http://kandangath.github.io/blog/2014/12/07/istanbul</id>
-    <content type="html"><![CDATA[<p>Hello World</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Hello World]]></title>
