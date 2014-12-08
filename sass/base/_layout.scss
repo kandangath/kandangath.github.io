@@ -114,7 +114,7 @@ aside.sidebar {
 .toggle-sidebar { &, .no-sidebar & { display: none; }}
 
 body.sidebar-footer {
-  @media only screen and (min-width: 750px) {
+  @media only screen and (min-width: $max-width) {
     aside.sidebar{ @include collapse-sidebar; }
   }
   #content { margin-right: 0px; }
@@ -124,13 +124,13 @@ body.sidebar-footer {
 @media only screen and (min-width: 550px) {
   body > header { font-size: $header-font-size; }
 }
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: $max-width) {
   aside.sidebar { @include collapse-sidebar; }
 }
 #main, #content, .sidebar {
   @extend .group;
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: $max-width) {
   body { -webkit-text-size-adjust: auto; }
   body > header { font-size: $header-font-size * 1.2; }
   #main {
@@ -168,7 +168,7 @@ body.sidebar-footer {
 
 @media only screen and (min-width: 992px) {
   body > header { font-size: $header-font-size * 1.3; }
-  #content { margin-right: $sidebar-width-wide; }
+  #content { margin-right: 100%; }
   #content {
     > div, > article {
       padding-top: $pad-wide/2;
@@ -176,7 +176,7 @@ body.sidebar-footer {
     }
   }
   aside.sidebar {
-    width: $sidebar-width-wide - $sidebar-pad-wide*2;
+    width: $sidebar-width-wide;
     padding: 1.2em $sidebar-pad-wide $sidebar-pad-wide;
     .collapse-sidebar & {
       padding: { left: $pad-wide; right: $pad-wide; }
