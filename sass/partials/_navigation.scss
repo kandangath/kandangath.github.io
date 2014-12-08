@@ -90,10 +90,12 @@ body > nav {
   }
   @media only screen and (min-width: 992px) {
     form {
-      width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 + 10px;
+      // width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 + 10px;
+      width: 100%;
     }
     ul[data-subscription$=email] + form {
-      width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 - 58px;
+      // width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 - 58px;
+      width: 100%;
     }
   }
 }
@@ -126,7 +128,8 @@ body > nav {
     }
     @media only screen and (min-width: 992px) {
       ul[data-subscription$=email] + form {
-        width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 - 32px;
+        // width: $sidebar-width-wide - $pad-wide - $sidebar-pad-wide*2 - 32px;
+        width: 100%;
       }
     }
   }
